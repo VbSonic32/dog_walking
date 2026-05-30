@@ -368,9 +368,14 @@ a {
 .hero-float-card {
 	position: absolute;
 	top: 10%;
-	left: 30px;
+	left: -1px;
 	background: white;
-	border-radius: var(--radius-lg);
+	/* border-radius: var(--radius-lg); */
+	border-radius: 20px;
+	corner-bottom-right-shape: squircle;
+	corner-top-right-shape: squircle;
+	corner-bottom-left-shape: square;
+	corner-top-left-shape: square;
 	padding: 16px 20px;
 	box-shadow: var(--shadow-lg);
 	display: flex;
