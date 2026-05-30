@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Kindred Paws – Gentle Dog Walking</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;0,7..72,700;1,7..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Link to icons framework bootstrap-icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<!-- ─── NAV ─── -->
+		<nav class="nav" id="nav">
+			<div class="nav-inner">
+				<a class="nav-logo" href="#">
+					<img
+						src="/images/logo.png"
+						alt="Kindred Paws logo, a paw print with a heart in the center"
+					/>
+				</a>
+				<ul class="nav-links">
+					<li><a href="#services">Services</a></li>
+					<li><a href="#walker">About Me</a></li>
+					<li><a href="#testimonials">Testimonials</a></li>
+					<li><a href="#tracking">Live Tracking</a></li>
+				</ul>
+				<a href="#cta" class="btn-primary nav-cta">Book a Walk</a>
+				<button class="nav-mobile-toggle" aria-label="Menu">☰</button>
+			</div>
+		</nav>
+
+		<!-- ─── HERO ─── -->
+		<section class="hero" id="hero">
+			<div class="hero-bg-blob"></div>
+
+			<div class="hero-content">
+				<h1 class="hero-headline anim-fade-up anim-delay-1">
+					Gentle Paws &<br />
+					<em>Peaceful Walks</em>
+				</h1>
+				<p class="hero-subtext anim-fade-up anim-delay-2">
+					Providing a calm, patient, and personalized walking experience for your
+					furry family members in the heart of our community.
+				</p>
+				<div class="hero-ctas anim-fade-up anim-delay-3">
+					<a href="#cta" class="btn-primary">Book Your First Walk</a>
+					<a href="#walker" class="btn-outline">Meet the Walker →</a>
+				</div>
+				<div class="hero-trust anim-fade-up anim-delay-4">
+					<div class="hero-trust-item">
+						<span class="hero-trust-icon">
+							<i class="bi bi-coin"></i>
+						</span>
+						Fully Insured
+					</div>
+					<div class="hero-trust-item">
+						<span class="hero-trust-icon">
+							<i class="bi bi-search"></i>
+						</span>
+						Background Checked
+					</div>
+					<div class="hero-trust-item">
+						<span class="hero-trust-icon">
+							<i class="bi bi-heart-pulse"></i>
+						</span>
+						Pet First Aid Trained
+					</div>
+				</div>
+			</div>
+
+			<div class="hero-image-wrap">
+				<img
+					src="/images/hero.png"
+					alt="Happy golden retriever walking on a sunny path"
+				/>
+				<div class="hero-image-overlay"></div>
+				<div class="hero-float-card">
+					<div class="float-card-icon">
+						<i class="bi bi-person-walking"></i>
+					</div>
+					<div class="float-card-text">
+						<div class="label">Live Walk</div>
+						<div class="value">Buddy is exploring!</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ─── MEET THE WALKER ─── -->
+		<section class="walker-section" id="walker">
+			<div class="container">
+				<div class="walker-grid">
+					<div class="walker-img-wrap">
+						<div class="walker-img-frame">
+							<img src="/images/sara.jpg" alt="Sarah, professional dog walker" />
+						</div>
+						<div class="walker-stat-card">
+							<div class="stat-num">5+</div>
+							<div class="stat-label">Years of Experience</div>
+						</div>
+					</div>
+
+					<div>
+						<div class="section-label">-Your Walker-</div>
+						<h2 class="section-title">Meet Sarah</h2>
+						<p class="walker-intro">
+							Hello! I'm Sarah. I believe that every dog deserves a walk that matches
+							their unique temperament. Whether your companion is a high-energy
+							explorer or a shy senior, I provide the patience and care they need to
+							feel safe and happy.
+						</p>
+						<p class="walker-intro">
+							With over 5 years of professional experience and a certification in
+							canine behavior, I focus on positive reinforcement and low-stress
+							handling. Your peace of mind is as important as your dog's exercise.
+						</p>
+						<ul class="cred-list">
+							<li>
+								<div class="cred-icon"><i class="bi bi-heart-pulse"></i></div>
+								Pet First Aid Certified
+							</li>
+							<li>
+								<div class="cred-icon"><i class="bi bi-geo-alt"></i></div>
+								GPS Tracked Walk Reports
+							</li>
+							<li>
+								<div class="cred-icon"><i class="bi bi-person"></i></div>
+								One-on-One Personalized Attention
+							</li>
+							<li>
+								<div class="cred-icon"><i class="bi bi-shield-lock"></i></div>
+								DBS Background Checked
+							</li>
+						</ul>
+						<a href="#cta" class="btn-primary">Schedule a Free Meet &amp; Greet</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ─── SERVICES ─── -->
+		<section class="services-section" id="services">
+			<div class="container">
+				<div class="section-header center">
+					<div class="section-label">-What We Offer-</div>
+					<h2 class="section-title">Tailored Walking Services</h2>
+					<p class="section-subtitle">
+						Choose the pace that suits your pup. Every walk includes a personalized
+						report and fresh water.
+					</p>
+				</div>
+
+				<div class="services-grid">
+					<!-- Card 1 -->
+					<div class="service-card">
+						<div class="service-icon"><i class="bi bi-geo-alt"></i></div>
+						<span class="service-tag">45-min walk</span>
+						<div class="service-name">Daily Explorer</div>
+						<p class="service-desc">
+							A stimulating 45-minute walk through local parks. Perfect for active dogs
+							who love to sniff and discover the world around them.
+						</p>
+						<div class="service-footer">
+							<div class="service-price">$25 <span>/ walk</span></div>
+							<a href="#cta" class="btn-book">Book Now →</a>
+						</div>
+					</div>
+
+					<!-- Card 2 — Featured -->
+					<div class="service-card featured">
+						<div class="service-icon"><i class="bi bi-star"></i></div>
+						<span class="service-tag">Most Popular</span>
+						<div class="service-name">Puppy Pace</div>
+						<p class="service-desc">
+							Gentle 20-minute sessions focused on socialisation and soft surfaces.
+							Ideal for growing joints, tiny paws, and big personalities.
+						</p>
+						<div class="service-footer">
+							<div class="service-price">$18 <span>/ visit</span></div>
+							<a href="#cta" class="btn-book">Book Now →</a>
+						</div>
+					</div>
+
+					<!-- Card 3 -->
+					<div class="service-card">
+						<div class="service-icon"><i class="bi bi-leaf"></i></div>
+						<span class="service-tag">30-min walk</span>
+						<div class="service-name">Solo Serenity</div>
+						<p class="service-desc">
+							One-on-one attention for anxious or senior dogs. A slow, quiet stroll
+							tailored entirely to their needs and comfort level.
+						</p>
+						<div class="service-footer">
+							<div class="service-price">$30 <span>/ walk</span></div>
+							<a href="#cta" class="btn-book">Book Now →</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ─── TESTIMONIALS ─── -->
+		<section class="testimonials-section" id="testimonials">
+			<div class="container">
+				<div class="section-header center">
+					<div class="section-label">-Happy Tails-</div>
+					<h2 class="section-title">Kind Words from Our Neighborhood</h2>
+					<p class="section-subtitle">
+						Real stories from dog parents in our community.
+					</p>
+				</div>
+
+				<div class="testimonials-grid">
+					<div class="testimonial-card">
+						<div class="quote-mark">"</div>
+						<div class="quote-stars">★★★★★</div>
+						<p class="quote-text">
+							Sarah has been walking our anxious Lab, Cooper, for months. Her calm
+							energy transformed his walks. He used to pull and bark; now he waits by
+							the door wagging his tail. We couldn't be happier!
+						</p>
+						<div class="reviewer">
+							<div class="reviewer-avatar">
+								<i class="bi bi-person"></i>
+							</div>
+							<div>
+								<div class="reviewer-name">Emily &amp; Cooper</div>
+								<div class="reviewer-sub">Maple Avenue · Regular Client</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="testimonial-card">
+						<div class="quote-mark">"</div>
+						<div class="quote-stars">★★★★★</div>
+						<p class="quote-text">
+							Finding a walker who understands puppy needs was so hard until we met
+							Sarah. She is gentle, incredibly patient, and always sends the most
+							beautiful photo updates. Total peace of mind.
+						</p>
+						<div class="reviewer">
+							<div class="reviewer-avatar"><i class="bi bi-person"></i></div>
+							<div>
+								<div class="reviewer-name">David &amp; Luna</div>
+								<div class="reviewer-sub">Oak Heights · Puppy Pace Client</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="testimonial-card">
+						<div class="quote-mark">"</div>
+						<div class="quote-stars">★★★★★</div>
+						<p class="quote-text">
+							My elderly rescue Max has joint issues and Sarah is absolutely wonderful
+							with him. She takes it at his pace and I receive a detailed report every
+							single time. Truly outstanding care.
+						</p>
+						<div class="reviewer">
+							<div class="reviewer-avatar"><i class="bi bi-person"></i></div>
+							<div>
+								<div class="reviewer-name">Margaret &amp; Max</div>
+								<div class="reviewer-sub">Riverside · Solo Serenity Client</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="testimonial-card">
+						<div class="quote-mark">"</div>
+						<div class="quote-stars">★★★★★</div>
+						<p class="quote-text">
+							The live GPS tracking is such a thoughtful addition. I can see exactly
+							where Coco is during her walk. Sarah is professional, punctual, and
+							clearly adores every dog she works with.
+						</p>
+						<div class="reviewer">
+							<div class="reviewer-avatar"><i class="bi bi-person"></i></div>
+							<div>
+								<div class="reviewer-name">James &amp; Coco</div>
+								<div class="reviewer-sub">The Commons · Daily Explorer Client</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ─── TRACKING ─── -->
+		<section class="tracking-section" id="tracking">
+			<div class="container">
+				<div class="tracking-inner">
+					<div class="tracking-content">
+						<div class="tracking-label">Real-Time Reliability</div>
+						<h2 class="tracking-title">Always Know Where Your Pup Is</h2>
+						<p class="tracking-desc">
+							Every walk includes a live tracking report. See where your companion
+							explored, when they had water breaks, and get a detailed "Pawsome"
+							summary after every trip.
+						</p>
+						<ul class="tracking-features">
+							<li>
+								<div class="track-feat-icon"><i class="bi bi-geo-alt"></i></div>
+								<div class="track-feat-text">
+									<strong>Live GPS Tracking</strong>
+									<span>Follow the walk in real-time from your phone</span>
+								</div>
+							</li>
+							<li>
+								<div class="track-feat-icon"><i class="bi bi-camera"></i></div>
+								<div class="track-feat-text">
+									<strong>Photo Updates</strong>
+									<span>Receive 2–5 high-quality photos during every walk</span>
+								</div>
+							</li>
+							<li>
+								<div class="track-feat-icon"><i class="bi bi-card-checklist"></i></div>
+								<div class="track-feat-text">
+									<strong>Post-Walk Report</strong>
+									<span>Distance, mood, hydration, and highlight moments</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="tracking-visual">
+						<div class="map-mock">
+							<div class="map-bg"></div>
+							<div class="map-path">
+								<svg
+									viewBox="0 0 400 360"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+									preserveAspectRatio="xMidYMid slice"
+								>
+									<!-- Soft dashed path -->
+									<path
+										d="M60 280 C80 240 100 260 140 220 C180 180 160 140 200 110 C240 80 280 120 300 160 C320 200 310 220 340 200"
+										stroke="#abd0ab"
+										stroke-width="3"
+										stroke-dasharray="8 6"
+										stroke-linecap="round"
+									/>
+									<!-- Solid completed segment -->
+									<path
+										d="M60 280 C80 240 100 260 140 220 C180 180 160 140 200 110 C240 80 260 100 275 130"
+										stroke="#426446"
+										stroke-width="4"
+										stroke-linecap="round"
+									/>
+									<!-- Start dot -->
+									<circle cx="60" cy="280" r="8" fill="#426446" />
+									<circle cx="60" cy="280" r="14" fill="#426446" fill-opacity="0.2" />
+									<!-- Waypoints -->
+									<circle cx="140" cy="220" r="5" fill="#abd0ab" />
+									<circle cx="200" cy="110" r="5" fill="#abd0ab" />
+								</svg>
+							</div>
+							<div class="map-notification">
+								<div class="notif-icon"><i class="bi bi-person-walking"></i></div>
+								<div>
+									<div class="notif-title">Buddy is exploring!</div>
+									<div class="notif-sub">Green Park · 1.2 km walked</div>
+								</div>
+							</div>
+							<div class="map-pin">
+								<div class="map-pin-inner"><i class="bi bi-pin-fill"></i></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ─── CTA ─── -->
+		<section class="cta-section" id="cta">
+			<div class="container">
+				<div class="cta-inner">
+					<div class="section-label" style="text-align: center">-Get Started-</div>
+					<h2 class="cta-title">Ready for a Peaceful Walk?</h2>
+					<p class="cta-subtitle">
+						I offer a complimentary 15-minute "meet &amp; greet" to ensure we're the
+						perfect match for your pup. No obligations — just a friendly chat and a
+						wagging tail.
+					</p>
+					<div class="cta-actions">
+						<a
+							href="mailto:hello@kindredpaws.com"
+							class="btn-primary"
+							style="font-size: 15px; padding: 14px 32px"
+							>Schedule Free Consultation</a
+						>
+						<a
+							href="#services"
+							class="btn-outline"
+							style="font-size: 15px; padding: 14px 32px"
+							>View Price List</a
+						>
+					</div>
+					<div class="trust-bar">
+						<div class="trust-item">
+							<span class="trust-item-icon"><i class="bi bi-shield-check"></i></span>
+							Fully Insured
+						</div>
+						<div class="trust-item">
+							<span class="trust-item-icon"><i class="bi bi-search"></i></span>
+							Background Checked
+						</div>
+						<div class="trust-item">
+							<span class="trust-item-icon"><i class="bi bi-heart-pulse"></i></span>
+							Pet First Aid Trained
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ─── FOOTER ─── -->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-inner">
+					<div>
+						<div class="footer-brand-name">
+							<img
+								src="/images/logo.png"
+								alt="Kindred Paws logo, a paw print with a heart in the center"
+							/>
+						</div>
+						<p class="footer-brand-desc">
+							Providing calm, attentive, and joyful dog walking services in the heart
+							of our community since 2019.
+						</p>
+						<div class="footer-social">
+							<div class="social-btn" title="Instagram">
+								<i class="bi bi-instagram"></i>
+							</div>
+							<div class="social-btn" title="Facebook">
+								<i class="bi bi-facebook"></i>
+							</div>
+							<div class="social-btn" title="Email">
+								<i class="bi bi-envelope"></i>
+							</div>
+						</div>
+					</div>
+
+					<div>
+						<div class="footer-col-title">Navigate</div>
+						<ul class="footer-links">
+							<li><a href="#services">Services</a></li>
+							<li><a href="#walker">About Me</a></li>
+							<li><a href="#testimonials">Testimonials</a></li>
+							<li><a href="#tracking">Live Tracking</a></li>
+						</ul>
+					</div>
+
+					<div>
+						<div class="footer-col-title">Services</div>
+						<ul class="footer-links">
+							<li><a href="#services">Daily Explorer</a></li>
+							<li><a href="#services">Puppy Pace</a></li>
+							<li><a href="#services">Solo Serenity</a></li>
+							<li><a href="#cta">Pricing</a></li>
+						</ul>
+					</div>
+
+					<div>
+						<div class="footer-col-title">Legal</div>
+						<ul class="footer-links">
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Terms of Service</a></li>
+							<li><a href="#">FAQs</a></li>
+							<li><a href="#">Instagram</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="footer-bottom">
+					<span class="footer-copy"
+						>© 2025 Kindred Paws. Dog Walking handled with love and care.</span
+					>
+					<span class="footer-copy"
+						>Created By
+						<a
+							href="https://my-profile-32.netlify.app"
+							target="_blank"
+							class="footer-copy"
+							style="font-weight: 600; color: #426446"
+						>
+							Igor Ratajczyk</a
+						>
+						for our community. All rights reserved.
+					</span>
+				</div>
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
